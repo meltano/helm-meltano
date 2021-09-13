@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  airflow:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-13T17:15:01.403934+01:00"
+    description: A Helm chart for Kubernetes
+    digest: ad858d5b38be886b02807bc031931bd202f48721848b0086593a90f5fcd9fd73
+    name: airflow
+    type: application
+    urls:
+    - https://meltano.gitlab.io/infra/helm-meltano/airflow/airflow-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-09-13T17:15:01.403408+01:00"
