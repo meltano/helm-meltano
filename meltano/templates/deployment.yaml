@@ -22,4 +22,4 @@ spec:
         command: ["meltano", "--log-level=debug", "ui"]
         env:
         - name: MELTANO_DATABASE_URI
-          value: "postgresql://postgres:postgres@postgresql.meltano:5432/meltano?sslmode=disable"
+          value: "{{ .Values.meltano.database_uri }}"
