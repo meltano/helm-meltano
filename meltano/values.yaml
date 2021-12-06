@@ -5,5 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: "registry:5000/meltano"
+  repository: "meltano/meltano"
   tag: "latest"
+
+meltano:
+  database_uri: "postgresql://postgres:postgres@postgresql.meltano:5432/meltano?sslmode=disable"
