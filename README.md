@@ -2,6 +2,17 @@
 
 This repo is hosted on GitLab Pages.
 
+## Deploying this Chart
+
+```bash
+# add the meltano-ui helm repository
+helm repo add meltano https://meltano.gitlab.io/infra/helm-meltano/meltano-ui
+# view available Chart versions
+helm search repo meltano-ui
+# deploy 🚀
+helm install meltano-ui/meltano-ui --generate-name
+```
+
 ## Releasing a new Helm Chart version
 
 After making edits to either the `airflow/` or `meltano/` helm charts, be sure to increment the chart version number in the respective `Chart.yaml` file. This will be used below to create a new package version.
