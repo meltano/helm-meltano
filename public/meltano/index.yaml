@@ -3,31 +3,32 @@ entries:
   meltano:
   - apiVersion: v2
     appVersion: 1.89.0
-    created: "2022-02-07T10:22:34.814824Z"
+    created: "2022-02-07T10:34:28.9117Z"
     description: A Helm chart for Kubernetes
     digest: 146606b68442c7c011b5417cab50c9d3d898f4ae0fe58e0538f7f73d1267151f
     name: meltano
     type: application
     urls:
-    - https://meltano.gitlab.io/infra/helm-meltano/meltano-ui/meltano-0.2.0.tgz
+    - https://meltano.gitlab.io/infra/helm-meltano/meltano/meltano-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.89.0
-    created: "2022-02-07T10:22:34.81403Z"
+    created: "2022-02-07T10:34:28.911473Z"
     description: A Helm chart for Kubernetes
     digest: f454c87334a26f26bd55a0fb219a641cd79f4dc48904c0ad7ee6b9793cbe38bb
     name: meltano
     type: application
     urls:
-    - https://meltano.gitlab.io/infra/helm-meltano/meltano-ui/meltano-0.1.1.tgz
+    - https://meltano.gitlab.io/infra/helm-meltano/meltano/meltano-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-07T10:22:34.813193Z"
+    created: "2022-02-07T10:34:28.911233Z"
     description: A Helm chart for Kubernetes
     digest: 5e533092d37629d6bc0f5d766782a96873df25b4a3c284c52e0cfdf3cdf2672e
     name: meltano
     type: application
     urls:
-    - https://meltano.gitlab.io/infra/helm-meltano/meltano-ui/meltano-0.1.0.tgz
+    - https://meltano.gitlab.io/infra/helm-meltano/meltano/meltano-0.1.0.tgz
     version: 0.1.0
+generated: "2022-02-07T10:34:28.910541Z"
