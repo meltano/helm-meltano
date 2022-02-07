@@ -3,12 +3,12 @@ entries:
   meltano-ui:
   - apiVersion: v2
     appVersion: 1.89.0
-    created: "2022-02-07T10:34:14.42278Z"
-    description: A Helm chart for Kubernetes
-    digest: e7951d71cd8936d29c6c9de15845d198bb6240bbf9c603bd452dc77ffb5a76f6
+    created: "2022-02-07T10:56:18.314262Z"
+    description: Meltano UI webservice. Read more at https://meltano.com
+    digest: 1979f5c6353f1cf0cf314aa60299f901c43518b96e6893dfdca6eaaf28499737
     name: meltano-ui
     type: application
     urls:
     - https://meltano.gitlab.io/infra/helm-meltano/meltano-ui/meltano-ui-0.2.0.tgz
     version: 0.2.0
-generated: "2022-02-07T10:34:14.422258Z"
+generated: "2022-02-07T10:56:18.313808Z"

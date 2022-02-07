@@ -23,26 +23,16 @@ This should result in a new `meltano-ui` entry in `public/meltano/index.yaml`:
 ```yaml
 apiVersion: v1
 entries:
-  meltano:
+  meltano-ui:
   - apiVersion: v2
     appVersion: 1.89.0
-    created: "2021-12-06T12:09:02.010899Z"
+    created: "2022-02-07T10:34:14.42278Z"
     description: A Helm chart for Kubernetes
-    digest: f454c87334a26f26bd55a0fb219a641cd79f4dc48904c0ad7ee6b9793cbe38bb
-    name: meltano
+    digest: e7951d71cd8936d29c6c9de15845d198bb6240bbf9c603bd452dc77ffb5a76f6
+    name: meltano-ui
     type: application
     urls:
-    - https://meltano.gitlab.io/infra/helm-meltano/meltano/meltano-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-12-06T12:09:02.0104Z"
-    description: A Helm chart for Kubernetes
-    digest: 5e533092d37629d6bc0f5d766782a96873df25b4a3c284c52e0cfdf3cdf2672e
-    name: meltano
-    type: application
-    urls:
-    - https://meltano.gitlab.io/infra/helm-meltano/meltano/meltano-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-12-06T12:09:02.009386Z"
+    - https://meltano.gitlab.io/infra/helm-meltano/meltano-ui/meltano-ui-0.2.0.tgz
+    version: 0.2.0
+generated: "2022-02-07T10:34:14.422258Z"
 ```

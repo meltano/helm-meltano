@@ -1,6 +1,6 @@
 apiVersion: v2
 name: meltano-ui
-description: A Helm chart for Kubernetes
+description: Meltano UI webservice. Read more at https://meltano.com
 
 # A chart can be either an 'application' or a 'library' chart.
 #
