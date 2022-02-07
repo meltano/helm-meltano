@@ -17,6 +17,7 @@ spec:
       containers:
         - name: meltano-ui
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
           command: ["meltano", "ui"]
@@ -26,6 +27,7 @@ spec:
                 secretKeyRef:
                   name: meltano-env
                   key: database-uri
+      {{- if .Values.meltano.b64_env_file -}}
           volumeMounts:
             - name: env-file
               mountPath: "/project/.env"
@@ -38,3 +40,4 @@ spec:
             items:
               - key: env-file
                 path: ".env"
+      {{- end }}

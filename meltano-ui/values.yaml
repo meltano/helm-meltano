@@ -9,4 +9,4 @@ image:
   tag: "latest"
 
 meltano:
-  database_uri: "postgresql://postgres:postgres@postgresql.meltano:5432/meltano?sslmode=disable"
+  database_uri: "sqlite:///$MELTANO_PROJECT_ROOT/.meltano/meltano.db"
