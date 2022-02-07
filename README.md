@@ -8,17 +8,17 @@ After making edits to either the `airflow/` or `meltano/` helm charts, be sure t
 
 ```sh
 # From the top level dir, create a new package bundle from the latest Chart version:
-helm package meltano
+helm package meltano-ui
 
 # Move the new bundle into the `public` folder for hosting on GitLab Pages:
-mv meltano-0.1.1.tgz public/meltano
+mv meltano-0.1.1.tgz public/meltano-ui
 
 # Update the hosted index.yaml to include the new version:
 cd public
-helm repo index meltano --merge index.yaml --url "https://meltano.gitlab.io/infra/helm-meltano/meltano"
+helm repo index meltano-ui --merge index.yaml --url "https://meltano.gitlab.io/infra/helm-meltano/meltano-ui"
 ```
 
-This should result in a new `meltano` entry in `public/meltano/index.yaml`:
+This should result in a new `meltano-ui` entry in `public/meltano/index.yaml`:
 
 ```yaml
 apiVersion: v1
