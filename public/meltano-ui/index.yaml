@@ -9,6 +9,6 @@ entries:
     name: meltano-ui
     type: application
     urls:
-    - https://meltano.gitlab.io/infra/helm-meltano/meltano/meltano-ui-0.2.0.tgz
+    - https://meltano.gitlab.io/infra/helm-meltano/meltano-ui/meltano-ui-0.2.0.tgz
     version: 0.2.0
 generated: "2022-02-07T10:34:14.422258Z"
