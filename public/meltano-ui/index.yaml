@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   meltano-ui:
   - apiVersion: v2
-    appVersion: 1.89.0
-    created: "2022-02-07T10:56:18.314262Z"
+    appVersion: 1.96.0
+    created: "2022-03-01T17:01:07.30645Z"
     description: Meltano UI webservice. Read more at https://meltano.com
-    digest: 1979f5c6353f1cf0cf314aa60299f901c43518b96e6893dfdca6eaaf28499737
+    digest: cf1672d7af3faee3afc5c9e9abbb87bb54ba265c6434dd427b5fb97a212fc130
     name: meltano-ui
     type: application
     urls:
-    - https://meltano.gitlab.io/infra/helm-meltano/meltano-ui/meltano-ui-0.2.0.tgz
-    version: 0.2.0
-generated: "2022-02-07T10:56:18.313808Z"
+    - https://meltano.gitlab.io/infra/helm-meltano/meltano-ui/meltano-ui-0.3.0.tgz
+    version: 0.3.0
+generated: "2022-03-01T17:01:07.303004Z"
