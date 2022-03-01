@@ -10,3 +10,8 @@ image:
 
 meltano:
   database_uri: "sqlite:///$MELTANO_PROJECT_ROOT/.meltano/meltano.db"
+
+ingress:
+  enabled: false
+  annotations: {}
+  path: "/"
