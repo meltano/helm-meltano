@@ -27,7 +27,7 @@ spec:
                 secretKeyRef:
                   name: meltano-env
                   key: database-uri
-      {{- if .Values.meltano.b64_env_file -}}
+      {{- if .Values.meltano.b64_env_file }}
           volumeMounts:
             - name: env-file
               mountPath: "/project/.env"
